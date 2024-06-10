@@ -75,3 +75,8 @@ const properties : Property[] = [
         isAvailable: false
     }
     ]
+
+    // Functions
+showReviewTotal(reviews.length, reviews[0].name, reviews[0].loyaltyUser)
+
+populateUser(you.isReturning, you.firstName)
