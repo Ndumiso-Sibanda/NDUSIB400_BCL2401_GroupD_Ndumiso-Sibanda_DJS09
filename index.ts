@@ -32,3 +32,18 @@ const you = {
     age: 35,
     stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
 }
+
+// Array of Properties
+const properties : Property[] = [
+    {
+        image: './images/colombia-property.jpg',
+        title: 'Colombian Shack',
+        price: 45,
+        location: {
+            firstLine: 'shack 37',
+            city: 'Bogota',
+            code: 45632,
+            country: 'Colombia'
+        },
+    }
+    ]
