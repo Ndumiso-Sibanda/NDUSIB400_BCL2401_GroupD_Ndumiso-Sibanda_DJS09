@@ -2,7 +2,7 @@
 
 import { showReviewTotal, populateUser, showDetails, getTopTwoReviews} from './utils'
 import { Permissions , LoyaltyUser } from './enums'
-
+import { Review, Property } from './interfaces'
 
 const reviewTotalDisplay = document.querySelector('#reviews')
 
