@@ -92,3 +92,18 @@ for (let i = 0; i < properties.length; i++) {
     showDetails(you.permissions, card, properties[i].price)
     propertyContainer.appendChild(card)
 }
+
+let count = 0
+function addReviews(array : Review[]) : void {
+    if (!count ) {
+        count++
+        const topTwo = getTopTwoReviews(array)
+        for (let i = 0; i < topTwo.length; i++) {
+            const card = document.createElement('div')
+            card.classList.add('review-card')
+            card.innerHTML = topTwo[i].stars + ' stars from ' + topTwo[i].name
+            reviewContainer.appendChild(card)
+        }
+        container.removeChild(button) 
+    }
+}
