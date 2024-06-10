@@ -122,3 +122,8 @@ let yourMainProperty = new MainProperty(
         loyaltyUser: LoyaltyUser.GOLD_USER,
         date: '12-04-2021'
     }] )
+
+    const mainImageContainer = document.querySelector('.main-image') as HTMLElement
+const image = document.createElement('img')
+image.setAttribute('src', yourMainProperty.src)
+mainImageContainer.appendChild(image)
