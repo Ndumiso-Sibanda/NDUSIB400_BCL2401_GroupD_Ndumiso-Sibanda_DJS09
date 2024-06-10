@@ -12,3 +12,8 @@ enum LoyaltyUser {
     SILVER_USER = 'SILVER_USER',
     BRONZE_USER = 'BRONZE_USER'
 }
+
+export function showReviewTotal(value: number, reviewer: string, isLoyalty: LoyaltyUser) {
+    const iconDisplay = LoyaltyUser.GOLD_USER ? '⭐' : ''
+    reviewTotalDisplay.innerHTML = value.toString() + ' review' + makeMultiple(value) + ' | last reviewed by ' + reviewer + ' ' + iconDisplay    
+}
