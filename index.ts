@@ -47,6 +47,16 @@ const properties : Property[] = [
         },
         contact: [+112343823978921, 'marywinkle@gmail.com'],
         isAvailable: true  
-    }
-    
+    },
+    {
+        image: './images/poland-property.jpg',
+        title: 'Polish Cottage',
+        price: 30,
+        location: {
+            firstLine: 'no 23',
+            city: 'Gdansk',
+            code: 343903,
+            country: 'Poland'
+        },
+    },
     ]
