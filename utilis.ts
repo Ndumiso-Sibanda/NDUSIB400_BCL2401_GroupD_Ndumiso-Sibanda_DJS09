@@ -17,3 +17,10 @@ export function showReviewTotal(value: number, reviewer: string, isLoyalty: Loya
     const iconDisplay = LoyaltyUser.GOLD_USER ? '⭐' : ''
     reviewTotalDisplay.innerHTML = value.toString() + ' review' + makeMultiple(value) + ' | last reviewed by ' + reviewer + ' ' + iconDisplay    
 }
+
+export function populateUser(isReturning : boolean, userName: string ) {
+    if (isReturning == true){
+        returningUserDisplay.innerHTML = 'back'
+    }
+    userNameDisplay.innerHTML = userName
+}
