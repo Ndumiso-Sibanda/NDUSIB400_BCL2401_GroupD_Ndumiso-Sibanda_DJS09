@@ -45,5 +45,8 @@ const properties : Property[] = [
             code: 45632,
             country: 'Colombia'
         },
+        contact: [+112343823978921, 'marywinkle@gmail.com'],
+        isAvailable: true  
     }
+    
     ]
