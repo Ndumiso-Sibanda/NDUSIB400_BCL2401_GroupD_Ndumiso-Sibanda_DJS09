@@ -24,3 +24,11 @@ const reviews = [
         date: '27-03-2021'
     },
 ]
+const you = {
+    firstName: 'Bobby',
+    lastName: 'Brown',
+    permissions: Permissions.ADMIN,
+    isReturning: true,
+    age: 35,
+    stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
+}
