@@ -71,5 +71,7 @@ const properties : Property[] = [
             code: 45334,
             country: 'Malaysia'
         },
-    },
+        contact: [ +60349822083, 'lee34@gmail.com'],
+        isAvailable: false
+    }
     ]
