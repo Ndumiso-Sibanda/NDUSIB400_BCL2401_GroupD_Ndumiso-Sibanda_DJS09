@@ -1,13 +1,33 @@
-# DJS09: Couch Surfing | Typescript Practice
+Property Management Dashboard
+Introduction
+The Property Management Dashboard is a JavaScript-based web application designed to display property listings and user reviews. It showcases a variety of properties with their respective details, user reviews, and a dynamic interface to manage user interactions. This project was built using vanilla JavaScript and HTML, emphasizing DOM manipulation and event handling.
 
-## Challenge Overview
+Improvements Implemented
+User Role and Loyalty Types:
 
-Are you ready to get stuck into some Typescript? For this challenge, you are required to code along with the lecturer from this lesson:  Couch Surfing Website
+Implemented enums for UserRole and LoyaltyUser to categorize user permissions and loyalty levels, improving code readability and maintainability.
+Dynamic Content Generation:
 
-For this challenge you are required to code along with the lecturer from this lesson: Learn Typescript Tutorial
+Dynamically generated property cards and user reviews, enhancing the user interface with real-time data updates.
+Event Handling:
 
-The focus for this project will be to understand the concepts around a JavaScript superset like Typescript and to get a feel for how it works. You will need to submit the finished Couch Surfing Website as your DJS09 Submission. 
+Added event listeners for user interactions, such as clicking a button to sort and display top reviews.
+Reusable Functions:
 
-**🚨 Note: You will need to make GitHub commits to your project after each lesson in the Scrimba walkthrough, showing that you have followed along with the lessons.**
+Created reusable functions for common tasks, such as appending elements to the DOM and formatting strings.
+What I Learned
+Enums in JavaScript:
 
-Make sure to submit your project on the LMS Project Tab [DJS09] 
+Learned how to implement and use enums in JavaScript to manage constant values more effectively.
+DOM Manipulation:
+
+Gained experience in dynamically creating and updating DOM elements based on data.
+Event Handling:
+
+Understood the importance of event handling in creating interactive web applications.
+Code Organization:
+
+Improved code organization by separating logic into reusable functions and structuring the code for better readability.
+
+How to run?
+Open live server and open src folder
